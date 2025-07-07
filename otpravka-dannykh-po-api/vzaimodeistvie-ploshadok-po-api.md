@@ -25,11 +25,11 @@ title: Взаимодействие площадок по API
 
 "noPatentExamType": false (boolean true/false) (Показывает, что в ближайшее время не будет экзаменов с уровнем Патент/Разрешение на работу. Не передается, если был передан параметр "examinationAreaDoesNotWork" в значении True),
 
-"temporaryResidenceNearestStartDate": "2025-07-10" (string) (Ближайшая дата старта экзамена с уровнем РВП. Не передается, если были переданы параметры "examinationAreaDoesNotWork" или "noPatentExamType" в значении True),
+""temporaryResidenceNearestStartDate": "2025-07-10" (string) (Ближайшая дата старта экзамена с уровнем РВП. Не передается, если были переданы параметры "examinationAreaDoesNotWork" или "noTemporaryResidenceExamType " в значении True),,
 
 "noTemporaryResidenceExamType": false (boolean true/false) (Показывает, что в ближайшее время не будет экзаменов с уровнем РВП. Не передается, если был передан параметр "examinationAreaDoesNotWork" в значении True),
 
-"residencePermitNearestStartDate": "2025-07-15" (string) (Ближайшая дата старта экзамена с уровнем ВНЖ. Не передается, если были переданы параметры "examinationAreaDoesNotWork" или "noPatentExamType" в значении True),
+"residencePermitNearestStartDate": "2025-07-15" (string) (Ближайшая дата старта экзамена с уровнем ВНЖ. Не передается, если были переданы параметры "examinationAreaDoesNotWork" или "noResidencePermitExamType " в значении True),
 
 "noResidencePermitExamType": false (boolean true/false) (Показывает, что в ближайшее время не будет экзаменов с уровнем ВНЖ. Не передается, если был передан параметр "examinationAreaDoesNotWork" в значении True),
 
